@@ -16,10 +16,10 @@ Return *an array of strings containing the new strings formed after the splits, 
 > **Input:** words = ["one.two.three","four.five","six"], separator = "."    	
 > **Output:** ["one","two","three","four","five","six"]     
 > **Explanation:** In this example we split as follows:  
-
-"one.two.three" splits into "one", "two", "three"  
-"four.five" splits into "four", "five"  
-"six" splits into "six"   
+>  
+> "one.two.three" splits into "one", "two", "three"  
+> "four.five" splits into "four", "five"  
+> "six" splits into "six"   
 
 Hence, the resulting array is ["one","two","three","four","five","six"].
 
@@ -28,9 +28,9 @@ Hence, the resulting array is ["one","two","three","four","five","six"].
 	> **Input:** words = ["$easy$","$problem$"], separator = "$"     
 > **Output:** ["easy","problem"]    
 > **Explanation:** In this example we split as follows:   
-
-"$easy$" splits into "easy" (excluding empty strings)  
-"$problem$" splits into "problem" (excluding empty strings)  
+>   
+> "$easy$" splits into "easy" (excluding empty strings)  
+> "$problem$" splits into "problem" (excluding empty strings)  
 
 Hence, the resulting array is ["easy","problem"].  
 
